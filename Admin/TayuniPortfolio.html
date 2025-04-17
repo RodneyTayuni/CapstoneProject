@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tayuni's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gradient-to-br from-indigo-100 via-purple-100 to-pink-100 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white shadow-lg py-6">
+    <div class="container mx-auto px-6 flex items-center space-x-4">
+      <img src="profile-picture.jpg" alt="Profile Picture" class="w-20 h-20 rounded-full border-4 border-white shadow-lg" />
+      <div>
+        <h1 class="text-4xl font-bold">Rodney Tayuni</h1>
+        <p class="text-xl">Full Stack Developer</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="py-12 px-6">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-purple-600 mb-4">About Me</h2>
+      <p class="text-lg leading-relaxed">
+        Hi! I'm Rodney, an IT fresh graduate passionate about building web applications that solve real-world problems.
+        I have experience with both frontend and backend technologies, 
+        and I love turning ideas into scalable and functional software.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="bg-white py-12 px-6 shadow-inner">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-pink-600 mb-4">Skills</h2>
+      <ul class="grid grid-cols-2 md:grid-cols-3 gap-2 text-lg text-gray-700">
+        <li class="text-2xl font-bold">HTML, CSS, JavaScript</li>
+        <li class="text-2xl font-bold">PHP</li>
+        <li class="text-2xl font-bold">Java</li>
+        <li class="text-2xl font-bold">MySQL</li>
+        <li class="text-2xl font-bold">Software Testing</li>
+        <li class="text-2xl font-bold">Git & GitHub</li>
+      </ul>
+    </div>
+  </section>
+ 
+  <!-- Projects Section -->
+  <section class="py-12 px-6">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-indigo-600 mb-6">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-2xl font-semibold text-purple-700">GitHub</h3>
+          <p class="mb-2 text-gray-700">Capstone Project - Developed using PHP, JavaScript, CSS, HTML, and MySQL</p>
+          <a href="https://github.com/RodneyTayuni/CapstoneProject" target="_blank" class="text-indigo-500 hover:underline">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+          <h3 class="text-2xl font-semibold text-pink-700">Project Images</h3>
+          <p class="mb-4 text-gray-700">Website pictures</p>
+          <div class="flex flex-wrap gap-4 items-center">
+            <a href="blog-1.png" target="_blank">
+              <img src="blog-1.png" alt="Project Image 1" class="w-20 h-20 rounded-full border-2 border-pink-300 hover:scale-105 transition" />
+            </a>
+            <a href="blog-2.jpg" target="_blank">
+              <img src="blog-2.jpg" alt="Project Image 2" class="w-20 h-20 rounded-full border-2 border-purple-300 hover:scale-105 transition" />
+            </a>
+            <a href="blog-3.png" target="_blank">
+              <img src="blog-3.png" alt="Project Image 3" class="w-20 h-20 rounded-full border-2 border-indigo-300 hover:scale-105 transition" />
+            </a>
+            <a href="blog-4.webp" target="_blank">
+              <img src="blog-4.webp" alt="Project Image 4" class="w-20 h-20 rounded-full border-2 border-blue-300 hover:scale-105 transition" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="bg-white py-12 px-6 shadow-inner">
+    <div class="container mx-auto text-center">
+      <h2 class="text-3xl font-bold text-purple-600 mb-4">Resume</h2>
+      <a href="https://drive.google.com/file/d/1pwyOhoowAeNT27Iut000r3OKoaMyykLm/view?usp=drive_link" target="_blank" class="text-indigo-600 text-lg font-medium hover:underline">
+        Download Resume (PDF)
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-12 px-6">
+    <div class="container mx-auto">
+      <h2 class="text-3xl font-bold text-pink-600 mb-4">Contact Me</h2>
+      <p class="mb-2 text-lg">Email: <a href="mailto:rodney27tayuni@gmail.com" class="text-purple-600 hover:underline">rodney27tayuni@gmail.com</a></p>
+      <p class="text-lg">LinkedIn: <a href="https://www.linkedin.com/in/rodney-tayuni-b98773303" target="_blank" class="text-indigo-600 hover:underline">linkedin.com/in/rodney-tayuni-b98773303</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-sm bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200">
+    <p class="text-gray-700">&copy; 2025 Rodney Tayuni. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
